@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Example Build') {
             steps {
-                echo 'Build Stage Execution '
+                echo 'Build Stage Execution when time'
             }
         }
         stage('Example Deploy') {
